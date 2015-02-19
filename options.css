@@ -1,0 +1,44 @@
+.folder, .rootFolder {
+  /*text-decoration: none;*/
+  padding: 10px;
+  margin: 10px;
+  border: #000 1px solid;
+  color: #000;
+}
+
+#folders {
+  padding: 10px;
+}
+#folders div {
+  padding: 10px;
+  float: left;
+}
+
+.hidden {
+  display: none;
+}
+.shown {
+  display: block;
+}
+.folder h2, .rootFolder h2 {
+  text-align: center;
+}
+.folder p, .rootFolder p {
+  clear: left;
+}
+.folder li, .rootFolder li {
+  list-style: none;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+  margin: 1em;
+}
+
+.sent-item {
+  opacity: 0.3;
+}
+.sent {
+  margin-left: 1em;
+  font-size: 1.5em;
+}
