@@ -1,25 +1,121 @@
+body {
+  position: relative;
+  margin: 0;
+}
+
 .folder, .rootFolder {
-  /*text-decoration: none;*/
   padding: 10px;
   margin: 10px;
   border: #000 1px solid;
   color: #000;
+  background-color: #e1e1e1;
+}
+
+
+.btn {
+border: none;
+font-family: inherit;
+font-size: inherit;
+color: inherit;
+background: none;
+cursor: pointer;
+padding: 16px 20px;
+display: inline-block;
+/*margin: 15px 30px;*/
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 700;
+outline: none;
+position: relative;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;
+background-color: #13AE7A;
+}
+
+btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* Button 1a */
+.btn-1a:hover,
+.btn-1a:active {
+  /*color: #0e83cd;*/
+  background: #18624A;
+}
+
+.btn-1 {
+border: 3px solid #fff;
+color: #fff;
+}
+
+#logInOut span {
+  font-size: 1em;
+}
+
+.signIn {
+  background-color: #3192C5;
+  text-decoration: none;
+}
+
+.signIn:hover {
+  background-color: #2777A1;
+}
+
+.signOut {
+  background-color: #ff5555;
+}
+.signOut:hover {
+  background-color: #ff5555;
+}
+
+
+#actions {
+  position: fixed;
+  margin-top: 1em;
+  width: 10%;
+}
+
+#actions button {
+  margin-top: 1em;
 }
 
 #folders {
+  margin: 0 auto;
   padding: 10px;
+  width: 80%;
 }
 #folders div {
   padding: 10px;
-  float: left;
+
 }
 
-.hidden {
-  display: none;
+.alert {
+  color: red;
 }
-.shown {
+
+.sendingAlertShow {
   display: block;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  background-color: #555;
+  opacity: 0.8;
 }
+
+.sendingAlert p {
+  font-size: 10em;
+  color: #000;
+  text-align: center;
+}
+
 .folder h2, .rootFolder h2 {
   text-align: center;
 }
@@ -41,4 +137,11 @@ input[type="checkbox"] {
 .sent {
   margin-left: 1em;
   font-size: 1.5em;
+}
+
+.hidden {
+  display: none;
+}
+.shown {
+  display: block;
 }

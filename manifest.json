@@ -1,14 +1,17 @@
 {
   "manifest_version": 2,
 
-  "name": "Send Chrome Bookmarks To Pushbullet",
+  "name": "BookBullet: Send bookmarks to Pushbullet",
   "description": "This extension allows you to send chrome bookmarks to pushbullet",
   "version": "1.0",
   "options_page": "options.html",
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "bookbullet.png",
     "default_popup": "popup.html"
   },
+  "icons": { "16": "icon16.png",
+             "48": "icon48.png",
+            "128": "icon128.png" },
   "permissions": [
     "storage",
     "cookies",

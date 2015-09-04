@@ -6,16 +6,60 @@
  -->
 <html>
   <head>
-    <title>Getting Started Extension's Popup</title>
+    <title>BookBullet: Send bookmarks to Pushbullet</title>
     <style>
       body {
         font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
         font-size: 100%;
         width: 100%
       }
-      #status, #status2 {
-        width: 10em;
-        /* avoid an excessively wide status text */
+      p {
+        font-size: 18px;
+        padding: 1em;
+
+      }
+
+      .btn {
+      border: none;
+      font-family: inherit;
+      font-size: inherit;
+      color: inherit;
+      background: none;
+      cursor: pointer;
+      padding: 16px 20px;
+      display: inline-block;
+      /*margin: 15px 30px;*/
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 700;
+      outline: none;
+      position: relative;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+      background-color: #13AE7A;
+      text-decoration: none;
+      }
+
+      btn:after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+      }
+
+      /* Button 1a */
+      .btn-1a:hover,
+      .btn-1a:active {
+        /*color: #0e83cd;*/
+        background: #18624A;
+      }
+
+      .btn-1 {
+      border: 3px solid #fff;
+      color: #fff;
       }
     </style>
 
@@ -28,7 +72,7 @@
     <script src="popup.js"></script>
   </head>
   <body>
-    <p><a href="options.html" target="_blank">Go to options</a></p>
+    <p><a class="btn btn-1 btn-1a" href="https://www.pushbullet.com/signin" target="_blank">Sign into Pushbullet</a></p>
   </body>
 </html>
 
