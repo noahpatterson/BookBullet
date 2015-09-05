@@ -11,18 +11,18 @@ This tool was built to test use cases for Pushbullet but to also learn how to bu
 ##How it works
 1. Install extension [(see below)](https://github.com/noahpatterson/BookBullet/tree/master#how-to-install)
 
-![view in chrome://extensions](https://github.com/noahpatterson/BookBullet/tree/master/readme-images/view-in-extension.png?raw=true)
+![view in chrome://extensions](/noahpatterson/BookBullet/blob/master/readme-images/view-in-extension.png?raw=true)
 
 2. Bookbullet uses Pushbullet's login url which sets a cookie.
 
-![extension login link](https://github.com/noahpatterson/BookBullet/tree/master/readme-images/extension-log-in-link.png?raw=true)
-![pushbullet login](https://github.com/noahpatterson/BookBullet/tree/master/readme-images/pushbullet-login.png?raw=true)
+![extension login link](/noahpatterson/BookBullet/blob/master/readme-images/extension-log-in-link.png?raw=true)
+![pushbullet login](/noahpatterson/BookBullet/blob/master/readme-images/pushbullet-login.png?raw=true)
 
 3. Bookbullet is then able to read that cookie to get the proper credentials to push to Pushbullet.
 
 4. Bookbullet then reads Chrome's bookmarks and allows you to select the bookmarks to send to Pushbullet. Upon sending, we mark and store the sent flag locally. Sent flags will remain until manually cleared or the indexedDB database is destroyed.
 
-![bookbullet ui](https://github.com/noahpatterson/BookBullet/tree/master/readme-images/bookbullet-ui.png?raw=true)
+![bookbullet ui](/noahpatterson/BookBullet/blob/master/readme-images/bookbullet-ui.png?raw=true)
 
 5. Bookbullet also lets you clear sent bookmarks.
 
@@ -32,7 +32,7 @@ This tool was built to test use cases for Pushbullet but to also learn how to bu
 3. Turn on 'Developer mode'
 4. Click 'Load unpacked extension' and select the downloaded root folder
 
-![install bookbullet](https://github.com/noahpatterson/BookBullet/tree/master/readme-images/bookbullet-install.png?raw=true)
+![install bookbullet](/noahpatterson/BookBullet/blob/master/readme-images/bookbullet-install.png?raw=true)
 
 ##Technology
 + jQuery
