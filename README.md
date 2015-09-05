@@ -9,9 +9,9 @@ This extension is a prototype that allows chrome users to push Chrome bookmarks 
 This tool was built to test use cases for Pushbullet but to also learn how to build chrome extensions.
 
 ##How it works
-1. Install extension [(see below)](https://github.com/noahpatterson/BookBullet/tree/master#how-to-install)
+1. Install extension [(see below)](https://github.com/noahpatterson/BookBullet#how-to-install)
 
-![view in chrome://extensions](https://raw.githubusercontent.com/noahpatterson/BookBullet/master/readme-images/view-in-extension.png?raw=true)
+![view in chrome://extensions](https://raw.githubusercontent.com/noahpatterson/BookBullet/master/readme-images/view-in-extensions.png?raw=true)
 
 2. Bookbullet uses Pushbullet's login url which sets a cookie.
 
