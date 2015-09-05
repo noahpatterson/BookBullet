@@ -9,22 +9,22 @@ This extension is a prototype that allows chrome users to push Chrome bookmarks 
 This tool was built to test use cases for Pushbullet but to also learn how to build chrome extensions.
 
 ##How it works
-1. Install extension [(see below)](https://github.com/noahpatterson/BookBullet#how-to-install)
+> Install extension [(see below)](https://github.com/noahpatterson/BookBullet#how-to-install)
 
 ![view in chrome://extensions](https://raw.githubusercontent.com/noahpatterson/BookBullet/master/readme-images/view-in-extensions.png?raw=true)
 
-2. Bookbullet uses Pushbullet's login url which sets a cookie.
+> Bookbullet uses Pushbullet's login url which sets a cookie.
 
 ![extension login link](https://raw.githubusercontent.com/noahpatterson/BookBullet/master/readme-images/extension-log-in-link.png?raw=true)
 ![pushbullet login](https://raw.githubusercontent.com/noahpatterson/BookBullet/master/readme-images/pushbullet-login.png?raw=true)
 
-3. Bookbullet is then able to read that cookie to get the proper credentials to push to Pushbullet.
-
-4. Bookbullet then reads Chrome's bookmarks and allows you to select the bookmarks to send to Pushbullet. Upon sending, we mark and store the sent flag locally. Sent flags will remain until manually cleared or the indexedDB database is destroyed.
+> Bookbullet is then able to read that cookie to get the proper credentials to push to Pushbullet.
 
 ![bookbullet ui](https://raw.githubusercontent.com/noahpatterson/BookBullet/master/readme-images/bookbullet-ui.png?raw=true)
 
-5. Bookbullet also lets you clear sent bookmarks.
+> Bookbullet then reads Chrome's bookmarks and allows you to select the bookmarks to send to Pushbullet. Upon sending, we mark and store the sent flag locally. Sent flags will remain until manually cleared or the indexedDB database is destroyed.
+
+> Bookbullet also lets you clear sent bookmarks.
 
 ##How to install
 1. Download root folder
